@@ -1,0 +1,66 @@
+* {
+    font-family: "Roboto";
+}
+
+body {
+    margin: 0px;
+}
+
+#first,
+#footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#first {
+    padding-bottom: 50px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#options {
+    display: flex;
+    gap: 20px;
+}
+
+#website_info {
+    display: flex;
+    gap: 5%;
+}
+
+#website_info h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#website_info #info {
+    width: 40%;
+    flex-shrink: 0;
+}
+
+#website_info img {
+    width: 100%;
+    flex: 1;
+}
+
+#website_info button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 0px;
+    font-weight: bold;
+}
